@@ -1,0 +1,104 @@
+@blue:#0600FF ;
+@rojo:#FF0400;
+@amarillo:yellow;
+@purpura:#7F01FF;
+@bloque:  inline-block;
+
+li{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+*{
+    margin: 10px;
+}
+
+.cabeza{
+    background-color: #009900;
+    width: 100%;
+    height: 200px;
+    h1{
+        color: @purpura;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: @blue;
+        text-align: center;
+    }
+}
+.cuerpo{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+}
+.azul{
+    background-color: @blue;
+    width: 20%;
+    height: 400px;
+    display: @bloque;
+    vertical-align: top;
+}
+.rojo{
+    display: @bloque;
+    width: 76%;
+    height:600px ;
+    background-color:@rojo ;
+}
+.amarillo{
+    display: @bloque;
+    background-color: @amarillo;
+    width: 31%;
+    height: 300px;
+}
+.purpura{
+    width: 97%;
+    height: 200px;
+    background-color:@purpura ;
+    p{
+        font-size: xx-large;
+        color: @blue;
+        font-weight: 2px;
+    }
+}
+@media only screen and (max-width:480px){
+    .azul{
+        display: none;
+     }
+    .rojo{
+        display: @bloque;
+        width: 100%;
+        height:600px ;
+        background-color: @rojo;
+    }
+    .amarillo{
+        
+        background-color: yellow;
+        width: 90%;
+        height: 100px;
+    }
+    .purpura{
+        width: 95%;
+        height: 100px;
+        background-color:@purpura ;
+    }
+    
+
+}
+@media (min-width:481px) and (max-width:1023px) {
+    .azul{
+        display: none;
+     }
+     .amarillo{
+        display: @bloque;
+        background-color:@amarillo;
+        width: 45%;
+        height: 200px;
+     }
+     .purpura{
+        width: 96%;
+        height: 100px;
+        background-color:@purpura ;
+    }
+
+}
