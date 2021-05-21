@@ -1,0 +1,32 @@
+#menu{
+    background-color:peru;
+    
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-left: 47px;
+}
+#card1{
+    background-color: tomato;
+}
+#card2{
+    background-color:sandybrown;
+}
+#card3{
+    background-color:peru;
+}
+img{
+    width: 33%;
+    height: 230px;
+}
+#imagenes{
+    margin: 20px;
+}
+#mono{
+    width: 10%;
+    height: 130px;
+    align-items: center;
+}
+  
