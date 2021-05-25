@@ -1,0 +1,29 @@
+#poke{
+display: inline-block;
+width: 60%;
+}
+#seccion{
+    display: inline-block;
+    background-color: turquoise;
+    height: inherit;
+    width: 20%;
+    vertical-align: top;
+    border: 10px solid red;
+    
+}
+#imagen2{
+    margin-left: 80px;
+    width: 56%;
+    height: 170px;
+}
+.datos{
+    
+    background-color: turquoise;
+    height: inherit;
+    width: 20%;
+    vertical-align:middle;
+    border: 10px solid red;
+}
+.info{
+    margin: 20px;
+}
